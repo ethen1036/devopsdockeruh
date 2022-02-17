@@ -1,0 +1,10 @@
+Script started on Fri 04 Feb 2022 02:58:38 PM CET
+]0;root@serve:~/Devops_docker/Part_1[?1034h[root@serve Part_1]# dockr[Ker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                          PORTS               NAMES
+45a5270a5c8b        mysql               "docker-entrypoint..."   2 minutes ago       Exited (1) 2 minutes ago                            blissful_minsky
+21a7ad841591        redis               "docker-entrypoint..."   4 minutes ago       Up 4 minutes                    6379/tcp            agitated_kare
+a155a2904873        nginx               "/docker-entrypoin..."   4 minutes ago       Exited (0) About a minute ago                       gifted_jennings
+]0;root@serve:~/Devops_docker/Part_1[root@serve Part_1]# scr[K[K[Kexit
+exit
+
+Script done on Fri 04 Feb 2022 02:59:48 PM CET

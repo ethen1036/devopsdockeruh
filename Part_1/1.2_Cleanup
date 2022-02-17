@@ -1,0 +1,9 @@
+Script started on Fri 04 Feb 2022 03:06:47 PM CET
+]0;root@serve:~/Devops_docker/Part_1[?1034h[root@serve Part_1]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+]0;root@serve:~/Devops_docker/Part_1[root@serve Part_1]# docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+]0;root@serve:~/Devops_docker/Part_1[root@serve Part_1]# cl[K[Kexit
+exit
+
+Script done on Fri 04 Feb 2022 03:07:19 PM CET

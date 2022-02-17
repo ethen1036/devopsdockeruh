@@ -1,0 +1,15 @@
+Script started on Thu 17 Feb 2022 10:31:50 AM IST
+]0;root@serve:~[?1034h[root@serve ~]# docker run -v $()p)w)d)[C/Devops_Docker[K[K[K[K[K[Kdocker/Part_1/1.9_Volumes/bind_log.txx[Kt:/sr[K[Kusr/src/a[[Kpp/text.log devopsdockeruh/simple- web-service
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C]0;root@serve:~[root@serve ~]# exit
+exit
+
+Script done on Thu 17 Feb 2022 10:36:15 AM IST

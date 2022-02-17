@@ -1,0 +1,14 @@
+Script started on Fri 11 Feb 2022 02:27:26 PM IST
+]0;root@serve:~[?1034h[root@serve ~]# docker run web-server
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+^C]0;root@serve:~[root@serve ~]# exit
+exit
+
+Script done on Fri 11 Feb 2022 02:27:49 PM IST

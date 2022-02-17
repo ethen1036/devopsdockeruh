@@ -1,0 +1,16 @@
+Script started on Fri 11 Feb 2022 03:05:58 PM IST
+]0;root@serve:~/Devops_docker/Part_1/1.8_Image_for_script[?1034h[root@serve 1.8_Image_for_script]# docker run -it curler
+Input website: 
+helsinki.fi
+Searching...
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.helsinki.fi/">here</a>.</p>
+</body></html>
+]0;root@serve:~/Devops_docker/Part_1/1.8_Image_for_script[root@serve 1.8_Image_for_script]# exit
+exit
+
+Script done on Fri 11 Feb 2022 03:06:19 PM IST
