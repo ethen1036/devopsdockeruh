@@ -1,0 +1,28 @@
+#Base operating system
+FROM ubuntu
+
+#Update OS and install curl required for installing node
+RUN apt-get update && apt-get install -y curl
+
+#Use curl and link in README to add node in package manager and install nodejs
+RUN curl -sL https://deb.nodesource.com/setup_16.x
+RUN apt install -y nodejs && apt install -y npm
+
+#---------Till now, system is setup and ready for deployment--------
+#Setp conventional working directory
+WORKDIR usr/src/app
+
+#Open required port
+EXPOSE 5000
+
+#Copy code
+COPY . .
+
+#Configure backend api path environment
+ENV REACT_APP_BACKEND_URL=http://localhost:8080
+
+#Install required packages, build static file and server files
+RUN npm install && npm run build && npm install -g serve
+
+#Command for execution
+CMD ["npx", "serve", "-s","-l", "5000", "build"]

@@ -1,0 +1,9 @@
+Script started on Sat 19 Feb 2022 07:10:31 PM IST
+]0;root@serve:~[?1034h[root@serve ~]# docker run -d -p 8080:8080 backend:1.14
+a513dd09e197e1409e098a48021c802a335d0a1d6b49296c4b1574deffe9eb66
+]0;root@serve:~[root@serve ~]# docker run -d -p 5050[K[K00L[K:5000 frontend:1.14
+0df37f0187bebd16dc70c5ed9e333d6dee06fc945cf9ad648e476d4fa3794467
+]0;root@serve:~[root@serve ~]# exit
+exit
+
+Script done on Sat 19 Feb 2022 07:12:03 PM IST

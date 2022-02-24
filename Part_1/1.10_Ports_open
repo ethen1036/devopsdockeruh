@@ -1,0 +1,16 @@
+Script started on Thu 17 Feb 2022 12:05:45 PM IST
+]0;root@serve:~[?1034h[root@serve ~]# deo[K[K[Kdocker run -p 8080:8080 s[Kwer[Kb-server
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/02/17 - 06:36:28 | 200 |      195.23µs |   103.88.59.213 | GET      "/"
+[GIN] 2022/02/17 - 06:36:28 | 200 |      32.946µs |   103.88.59.213 | GET      "/favicon.ico"
+^C]0;root@serve:~[root@serve ~]# cl[K[Kexit
+exit
+
+Script done on Thu 17 Feb 2022 12:07:00 PM IST

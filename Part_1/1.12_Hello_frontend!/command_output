@@ -1,0 +1,9 @@
+Script started on Thu 17 Feb 2022 08:39:06 PM IST
+]0;root@serve:~[?1034h[root@serve ~]# docker run -p 5000:5000 hello-frontend
+INFO: Accepting connections at http://localhost:5000
+^C
+INFO: Gracefully shutting down. Please wait...
+]0;root@serve:~[root@serve ~]# exit
+exit
+
+Script done on Thu 17 Feb 2022 08:40:35 PM IST

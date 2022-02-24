@@ -1,0 +1,27 @@
+Script started on Thu 17 Feb 2022 08:51:29 PM IST
+]0;root@serve:~[?1034h[root@serve ~]# docker run -p 8080:8080 hello-backend
+[Ex 2.4+] REDIS_HOST env was not passed so redis connection is not initialized
+[Ex 2.6+] POSTGRES_HOST env was not passed so postgres connection is not initialized
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /ping                     --> server/router.pingpong (4 handlers)
+[GIN-debug] GET    /messages                 --> server/controller.GetMessages (4 handlers)
+[GIN-debug] POST   /messages                 --> server/controller.CreateMessage (4 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2022/02/17 - 15:22:05 | 404 |      272.89µs |   103.88.59.213 | GET      "/"
+[GIN] 2022/02/17 - 15:22:16 | 200 |     114.748µs |   103.88.59.213 | GET      "/ping"
+exit
+
+^X^C
+
+]0;root@serve:~[root@serve ~]# 
+]0;root@serve:~[root@serve ~]# 
+]0;root@serve:~[root@serve ~]# ^C
+]0;root@serve:~[root@serve ~]# exit
+exit
+
+Script done on Thu 17 Feb 2022 08:54:48 PM IST
